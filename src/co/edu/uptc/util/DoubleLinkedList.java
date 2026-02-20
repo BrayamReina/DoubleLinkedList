@@ -7,12 +7,12 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.Objects;
 
-public class DoubleLinkedList<T> implements List<T>{
+public class DoubleLinkedList<T> implements List<T> {
     private Node<T> head;
     private Node<T> tail;
     private int size;
 
-    public DoubleLinkedList(){
+    public DoubleLinkedList() {
         size = 0;
         this.head = null;
         this.tail = null;
